@@ -2,6 +2,8 @@
 import { BiSearch } from "react-icons/bi";
 import { BsPerson } from "react-icons/bs";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
+// Styles:
+import "./Navbar.styles.css";
 
 const Navbar = () => {
   return (
