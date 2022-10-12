@@ -16,7 +16,11 @@ li {
   padding: 0 1rem;
 }
 
-.burger-menu {
+.burger-menu-closed {
+  display: none;
+}
+
+.burger-menu-opened {
   display: none;
 }
 
@@ -25,7 +29,7 @@ li {
     display: none;
   }
 
-  .burger-menu {
+  .burger-menu-closed {
     display: block;
   }
 
