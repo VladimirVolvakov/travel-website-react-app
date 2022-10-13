@@ -1,10 +1,10 @@
+// Styles:
+import "./Navbar.styles.css";
 // Menu icons:
 import { BiSearch } from "react-icons/bi";
 import { BsPerson } from "react-icons/bs";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from "react-icons/fa";
-// Styles:
-import "./Navbar.styles.css";
 
 const Navbar = () => {
   return (
@@ -27,7 +27,7 @@ const Navbar = () => {
         <HiOutlineMenuAlt4 className="icon" />
       </div>
 
-      <div className="burger-menu-opened">
+      <div className="mobile-menu">
         <ul className="burger-menu-nav">
           <li>Home</li>
           <li>Destinations</li>
@@ -36,7 +36,7 @@ const Navbar = () => {
           <li>Views</li>
         </ul>
         <div className="burger-menu-bottom">
-          <div className="burger-menu-icons">
+          <div className="burger-menu-buttons">
             <button>Search</button>
             <button>Account</button>
           </div>
