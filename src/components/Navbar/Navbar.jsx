@@ -3,6 +3,7 @@ import { useState } from "react";
 // Styles:
 import "./Navbar.styles.css";
 // Menu icons:
+import { AiOutlineClose } from "react-icons/ai";
 import { BiSearch } from "react-icons/bi";
 import { BsPerson } from "react-icons/bs";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
@@ -14,8 +15,8 @@ const Navbar = () => {
   const burgerClickHandler = () => setIsBurgerMenuActive(!isBurgerMenuActive);
 
   return (
-    <div className={isBurgerMenuActive ? "navbar navbar-bg" : "navbar"}>
-      <div className="logo">
+    <section className={isBurgerMenuActive ? "navbar navbar-bg" : "navbar"}>
+      <div className={isBurgerMenuActive ? "logo dark" : "logo"}>
         <h2>BEACHES.</h2>
       </div>
       <ul className="nav-menu">
@@ -30,7 +31,10 @@ const Navbar = () => {
         <BsPerson className="icon" />
       </div>
       <div className="burger-menu-closed" onClick={burgerClickHandler} >
-        <HiOutlineMenuAlt4 className="icon" />
+        { isBurgerMenuActive 
+          ? (<AiOutlineClose className="icon dark" />)
+          : (<HiOutlineMenuAlt4 className="icon" />)
+        }        
       </div>
 
       <div className={isBurgerMenuActive ? "mobile-menu active" : "mobile-menu"}>
@@ -55,7 +59,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
