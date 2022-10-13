@@ -1,3 +1,5 @@
+// Hook:
+import { useState } from "react";
 // Styles:
 import "./Navbar.styles.css";
 // Menu icons:
@@ -7,6 +9,10 @@ import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Navbar = () => {
+  const [isBurgerMenuActive, setIsBurgerMenuActive] = useState(false);
+
+  const burgerClickHandler = () => setIsBurgerMenuActive(!isBurgerMenuActive);
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -23,11 +29,11 @@ const Navbar = () => {
         <BiSearch className="icon" />
         <BsPerson className="icon" />
       </div>
-      <div className="burger-menu-closed">
+      <div className="burger-menu-closed" onClick={burgerClickHandler} >
         <HiOutlineMenuAlt4 className="icon" />
       </div>
 
-      <div className="mobile-menu">
+      <div className={isBurgerMenuActive ? "mobile-menu active" : "mobile-menu"}>
         <ul className="burger-menu-nav">
           <li>Home</li>
           <li>Destinations</li>
