@@ -14,7 +14,7 @@ const Navbar = () => {
   const burgerClickHandler = () => setIsBurgerMenuActive(!isBurgerMenuActive);
 
   return (
-    <div className="navbar">
+    <div className={isBurgerMenuActive ? "navbar navbar-bg" : "navbar"}>
       <div className="logo">
         <h2>BEACHES.</h2>
       </div>
