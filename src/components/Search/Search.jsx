@@ -9,10 +9,11 @@ const Search = () => {
       <div className="container">
         <div className="activity-description">
           <h2>LUXURY INCLUDED VACATIONS FOR A COUPLE</h2>
-          <p>Come experience the very pinnacle of luxury Caribbean all-inclusive vacations for couples at Sandals Resorts. Our luxury beach resorts, set along the most 
-            gorgeous tropical settings and exquisite beaches in Saint Lucia, Jamaica, Antigua, The Bahamas, Grenada, Barbados and Curaçao, feature unlimited gourmet 
-            dining, unique bars serving premium liquors and wines, and every land and water sport, including complimentary green fees at our golf resorts and PADI® 
-            certified scuba diving at most resorts. If you are planning a wedding, Sandals is the leader in Caribbean destination weddings and honeymoon packages.</p>
+          <p className="advertisement">Come experience the very pinnacle of luxury Caribbean all-inclusive vacations for couples at Sandals Resorts. Our luxury beach 
+            resorts, set along the most gorgeous tropical settings and exquisite beaches in Saint Lucia, Jamaica, Antigua, The Bahamas, Grenada, Barbados and Curaçao, 
+            feature unlimited gourmet dining, unique bars serving premium liquors and wines, and every land and water sport, including complimentary green fees at our 
+            golf resorts and PADI® certified scuba diving at most resorts. If you are planning a wedding, Sandals is the leader in Caribbean destination weddings and 
+            honeymoon packages.</p>
           <div className="search-col-2">
             <div className="box">
               <div>
@@ -26,7 +27,6 @@ const Search = () => {
             <div className="box">
               <div>
                 <h3>NO ONE INCLUDES MORE</h3>
-                <p>ALL-INCLUSIVE COMPANY FOR 20 YEARS IN A ROW</p>
                 <button>View Packages</button>
               </div>
             </div>
