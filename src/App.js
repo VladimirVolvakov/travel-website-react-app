@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Destinations from './components/Destinations/Destinations';
+import Search from './components/Search/Search';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Destinations />
+      <Search />
     </div>
   );
 }
