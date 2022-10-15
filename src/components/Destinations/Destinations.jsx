@@ -14,7 +14,7 @@ const Destinations = () => {
         <h2>All-Inclusive Resorts</h2>
         <p>On the Caribbean Best Beaches</p>
         <div className="img-container">
-          <img src={BoraBora} alt="Bora Bora" />
+          <img className="span-3 image-grid-row-2" src={BoraBora} alt="Bora Bora" />
           <img src={BoraBora2} alt="Bora Bora" />
           <img src={Maldives} alt="Maldives" />
           <img src={Maldives2} alt="Maldives" />
