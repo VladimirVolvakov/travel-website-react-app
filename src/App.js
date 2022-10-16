@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Destinations from './components/Destinations/Destinations';
 import Search from './components/Search/Search';
+import Options from './components/Options/Options';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Destinations />
       <Search />
+      <Options />
     </div>
   );
 }
