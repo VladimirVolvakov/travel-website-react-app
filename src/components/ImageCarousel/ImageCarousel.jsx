@@ -14,13 +14,16 @@ import Seychelles8 from "../../assets/seychelles8.jpg";
 
 const ImageCarousel = () => {
   return (
-    <section className="image-carousel">
+    <section className="container image-carousel">
       <Carousel 
         className="carousel" 
         showArrows 
         autoPlay 
         infiniteLoop 
-        interval={2000}
+        showStatus={false}
+        showThumbs={false}
+        swipeable
+        transitionTime={400}
       >
         <div>
           <img src={Seychelles2} alt="Seychelles" />
