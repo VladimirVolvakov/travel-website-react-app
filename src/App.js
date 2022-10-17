@@ -6,6 +6,7 @@ import Destinations from './components/Destinations/Destinations';
 import Search from './components/Search/Search';
 import Options from './components/Options/Options';
 import ImageCarousel from './components/ImageCarousel/ImageCarousel';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Search />
       <Options />
       <ImageCarousel />
+      <Footer />
     </div>
   );
 }
