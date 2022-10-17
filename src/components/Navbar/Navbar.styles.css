@@ -23,6 +23,10 @@ li {
   padding: 0 1rem;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 .burger-menu-closed {
   display: none;
 }
