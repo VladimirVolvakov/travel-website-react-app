@@ -14,7 +14,7 @@ import Seychelles8 from "../../assets/seychelles8.jpg";
 
 const ImageCarousel = () => {
   return (
-    <section className="container image-carousel">
+    <section name="views" className="container image-carousel">
       <Carousel 
         className="carousel" 
         showArrows 

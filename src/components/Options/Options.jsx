@@ -45,7 +45,7 @@ const Options = () => {
   ];
 
   return (
-    <section className="options">
+    <section name="booking" className="options">
       <div className="container">
         { destinations.map(item => (<OptionItem backgroundImage={item.image} text={item.text} />)) }
       </div>

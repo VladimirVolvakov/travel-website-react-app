@@ -9,7 +9,7 @@ import KeyWest from "../../assets/keywest.jpg";
 
 const Destinations = () => {
   return (
-    <section className="destinations">
+    <section name="destinations" className="destinations">
       <div className="container">
         <h2>All-Inclusive Resorts</h2>
         <p>On the Caribbean Best Beaches</p>

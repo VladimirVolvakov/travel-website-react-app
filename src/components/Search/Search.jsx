@@ -5,7 +5,7 @@ import Gold from "../../assets/gold.png";
 
 const Search = () => {
   return (
-    <section className="search">
+    <section name="travel" className="search">
       <div className="container">
         <div className="activity-description">
           <h2>LUXURY INCLUDED VACATIONS FOR A COUPLE</h2>
