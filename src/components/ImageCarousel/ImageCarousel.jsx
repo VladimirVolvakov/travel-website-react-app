@@ -7,10 +7,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Seychelles2 from "../../assets/seychelles2.jpg";
 import Seychelles3 from "../../assets/seychelles3.jpg";
 import Seychelles4 from "../../assets/seychelles4.jpg";
-import Seychelles5 from "../../assets/seychelles5.jpg";
-import Seychelles6 from "../../assets/seychelles6.jpg";
+// import Seychelles5 from "../../assets/seychelles5.jpg";
+// import Seychelles6 from "../../assets/seychelles6.jpg";
 import Seychelles7 from "../../assets/seychelles7.jpg";
-import Seychelles8 from "../../assets/seychelles8.jpg";
+// import Seychelles8 from "../../assets/seychelles8.jpg";
 
 const ImageCarousel = () => {
   return (
@@ -18,8 +18,8 @@ const ImageCarousel = () => {
       <Carousel 
         className="carousel" 
         showArrows 
-        autoPlay 
-        infiniteLoop 
+        // autoPlay 
+        // infiniteLoop 
         showStatus={false}
         showThumbs={false}
         swipeable
@@ -34,18 +34,18 @@ const ImageCarousel = () => {
         <div>
           <img src={Seychelles4} alt="Seychelles" />
         </div>
-        <div>
+        {/* <div>
           <img src={Seychelles5} alt="Seychelles" />
         </div>
         <div>
           <img src={Seychelles6} alt="Seychelles" />
-        </div>
+        </div> */}
         <div>
           <img src={Seychelles7} alt="Seychelles" />
         </div>
-        <div>
+        {/* <div>
           <img src={Seychelles8} alt="Seychelles" />
-        </div>
+        </div> */}
       </Carousel>
     </section>
   );
